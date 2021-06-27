@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Ivy Mode';
     src:
-        url('https://github.com/DugarRishab/My-Portfolio.git/fonts/IvyMode-Regular.woff2') format('woff2'),
-        url('https://github.com/DugarRishab/My-Portfolio.git/fonts/IvyMode-Regular.woff') format('woff'),
-        url('https://github.com/DugarRishab/My-Portfolio.git/fonts/IvyMode-Regular.ttf') format('truetype');
+        url('https://dugarrishab.github.io/My-Portfolio/fonts/IvyMode-Regular.woff2') format('woff2'),
+        url('https://dugarrishab.github.io/My-Portfolio/fonts/IvyMode-Regular.woff') format('woff'),
+        url('https://dugarrishab.github.io/My-Portfolio/fonts/IvyMode-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
