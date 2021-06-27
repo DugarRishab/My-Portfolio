@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Ivy Mode';
+    src: local('Ivy Mode Regular'), local('Ivy-Mode-Regular'),
+        url('IvyMode-Regular.woff2') format('woff2'),
+        url('IvyMode-Regular.woff') format('woff'),
+        url('IvyMode-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+:root{
+	--color-1:rgb(146, 59, 59);
+	--color-2:rgb(61, 59, 151);
+	--color-3:rgb(255, 255, 255);
+	--color-3-50:rgba(255, 255, 255, 0.545);
+	--s-font: 'Ivy Mode', 'helvetica';
+	--n-font:'Rubik', sans-serif;
+}
+
+.title{
+	font-family: var(--s-font);
+	font-size: 50px;
+	color: var(--color-3-50);
+}
+.title s-title{
+	font-size: 10vw;
+	color: var(--color-3);
+	letter-spacing: 5px;
+}
+.normal-text{
+	font-family: var(--n-font);
+	font-size: 30px;
+	color: var(--color-3-50);
+}
+button.secondary{
+	padding: 10px 20px 10px 20px;
+	font-size: 20px;
+	background-color: transparent;
+	color:var(--color-3-50);
+	border: 2px solid var(--color-3-50);
+	cursor: pointer;
+	transition: 0.5s all;
+	border-radius: 2px;
+}
+button.secondary:hover{
+	color: var(--color-3);
+	border: 2px solid var(--color-3);
+	transition: 0.5s all;
+}
